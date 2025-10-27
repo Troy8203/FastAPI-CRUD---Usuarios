@@ -7,8 +7,6 @@
 
 Una API REST simple para gestionar usuarios con FastAPI y PostgreSQL. Proporciona operaciones completas de CRUD: crear, leer, actualizar y eliminar usuarios.
 
-[![image.png](https://i.postimg.cc/HkWHHzDQ/image.png)](https://postimg.cc/vcKCtWmB)
-
 ## Funcionalidades
 
 - **Operaciones CRUD**: Crear, leer, actualizar y eliminar usuarios.
@@ -31,7 +29,7 @@ Sigue estas instrucciones para configurar y ejecutar el proyecto localmente.
 1. Clonar el repositorio:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Troy8203/FastAPI-CRUD---Usuarios.git
    cd base-backend
    ```
 
@@ -74,6 +72,8 @@ Puedes acceder a la documentación de la API en `http://127.0.0.1:8000/docs`.
 └── 📄 run.py                 # Script para levantar el proyecto
 ```
 
-## License
+## Resultado
 
-Licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Cada endpoint devuelve JSON estructurado y mantiene la consistencia de la base de datos. Al abrir <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs<a/> , también puedes probar cada operación desde la interfaz interactiva de FastAPI.
+
+[![image.png](https://i.postimg.cc/HkWHHzDQ/image.png)](https://postimg.cc/vcKCtWmB)
