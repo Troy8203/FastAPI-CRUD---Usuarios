@@ -7,7 +7,19 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import date
 
+# Cors
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def get_connection():
     return psycopg2.connect(
